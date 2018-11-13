@@ -1,4 +1,4 @@
-# Angular Contributor Code of Conduct
+# LibreTime Contributor Code of Conduct
 
 See [CODE_OF_CONDUCT.md](https://github.com/LibreTime/code-of-conduct/blob/master/CODE_OF_CONDUCT.md).
 
@@ -17,6 +17,6 @@ For more on adopting a code of conduct, see [Ashe Dryden's FAQ](http://ashedryde
 
 ## Credits
 
-Based on the [Contributor Covenant](https://github.com/Bantik/contributor_covenant) by [Coraline Ada Ehmke (Bantik)](https://github.com/Bantik).
+Based on the [Contributor Covenant](https://github.com/ContributorCovenant/contributor_covenant) by [Coraline Ada Ehmke (CoralineAda)](https://github.com/CoralineAda).
 
 If you have suggestions to improve this code of conduct, please submit an issue or PR.

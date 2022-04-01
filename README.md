@@ -1,6 +1,6 @@
 # LibreTime Contributor Code of Conduct
 
-See [CODE_OF_CONDUCT.md](https://github.com/libretime/organization/blob/master/CODE_OF_CONDUCT.md).
+See [CODE_OF_CONDUCT.md](https://github.com/libretime/organization/blob/main/CODE_OF_CONDUCT.md).
 
 This code of conduct applies to all of the projects under the [LibreTime organization on GitHub](https://github.com/orgs/libretime/) and the LibreTime community at large (Discourse, Mattermost, Twitter).
 
@@ -13,7 +13,6 @@ The [confcodeofconduct.com](http://confcodeofconduct.com/) template is a good st
 You should also provide contact information for atttendees to get help or report a violation.
 
 For more on adopting a code of conduct, see [Ashe Dryden's FAQ](http://ashedryden.com/blog/codes-of-conduct-101-faq).
-
 
 ## Credits
 

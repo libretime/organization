@@ -1,10 +1,10 @@
 # LibreTime Contributor Code of Conduct
 
-See [CODE_OF_CONDUCT.md](https://github.com/LibreTime/code-of-conduct/blob/master/CODE_OF_CONDUCT.md).
+See [CODE_OF_CONDUCT.md](https://github.com/libretime/organization/blob/master/CODE_OF_CONDUCT.md).
 
-This code of conduct applies to all of the projects under the [LibreTime organization on GitHub](https://github.com/orgs/LibreTime/) and the LibreTime community at large (IRC, mailing lists, Google+, Twitter, etc.).
+This code of conduct applies to all of the projects under the [LibreTime organization on GitHub](https://github.com/orgs/libretime/) and the LibreTime community at large (Discourse, Mattermost, Twitter).
 
-See the main [LibreTime repo](https://github.com/LibreTime/libretime/) for technical details of contributing to LibreTime.
+See the main [LibreTime repo](https://github.com/libretime/libretime/) for technical details of contributing to LibreTime.
 
 ## Events
 

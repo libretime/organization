@@ -2,12 +2,12 @@
 
 ## Terms
 
-* Contributor - a member of the Contributors team of the GitHub LibreTime
-                organization
-* Maintainer - a member of the Maintainers team of the GitHub LibreTime
-               organization
-* Administrator - a member of the Administrator team of the GitHub LibreTime
-                  organization
+- Contributor - a member of the Contributors team of the GitHub LibreTime
+  organization
+- Maintainer - a member of the Maintainers team of the GitHub LibreTime
+  organization
+- Administrator - a member of the Administrator team of the GitHub LibreTime
+  organization
 
 ## Leadership structure
 

@@ -1,4 +1,6 @@
-# LibreTime Contributor Code of Conduct
+# LibreTime Organization
+
+## Contributor Code of Conduct
 
 See [CODE_OF_CONDUCT.md](https://github.com/libretime/organization/blob/main/CODE_OF_CONDUCT.md).
 
@@ -6,15 +8,15 @@ This code of conduct applies to all of the projects under the [LibreTime organiz
 
 See the main [LibreTime repo](https://github.com/libretime/libretime/) for technical details of contributing to LibreTime.
 
-## Events
+### Events
 
 If you are running a LibreTime meetup, conference, user group, or other type of event, we encourage you to adopt and provide an appropriate code of conduct.
 The [confcodeofconduct.com](http://confcodeofconduct.com/) template is a good starting point.
-You should also provide contact information for atttendees to get help or report a violation.
+You should also provide contact information for attendees to get help or report a violation.
 
 For more on adopting a code of conduct, see [Ashe Dryden's FAQ](http://ashedryden.com/blog/codes-of-conduct-101-faq).
 
-## Credits
+### Credits
 
 Based on the [Contributor Covenant](https://github.com/ContributorCovenant/contributor_covenant) by [Coraline Ada Ehmke (CoralineAda)](https://github.com/CoralineAda).
 

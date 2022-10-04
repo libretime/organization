@@ -6,29 +6,29 @@ submitted there and approved for payment.
 
 ## Development Resources
 
-| Service                                                       |    Teams     | Access                |
-| ------------------------------------------------------------- | :----------: | --------------------- |
-| [Github @libretime-bot](https://github.com/libretime-bot)     |     :x:      | @jooola               |
-| [Github @LibreTimeDocBot](https://github.com/LibreTimeDocBot) |     :x:      |                       |
-| [NPM](https://www.npmjs.com/org/libretime)                    | :check_mark: | @paddatrapper @jooola |
-| [Weblate](https://hosted.weblate.org/projects/libretime/)     | :check_mark: | @paddatrapper @jooola |
-| [Docker](https://hub.docker.com/u/libretime)                  | :check_mark: |                       |
+| Service                                                       |     Teams      | Access                |
+| ------------------------------------------------------------- | :------------: | --------------------- |
+| [Github @libretime-bot](https://github.com/libretime-bot)     |  :red_circle:  | @jooola               |
+| [Github @LibreTimeDocBot](https://github.com/LibreTimeDocBot) |  :red_circle:  |                       |
+| [NPM](https://www.npmjs.com/org/libretime)                    | :green_circle: | @paddatrapper @jooola |
+| [Weblate](https://hosted.weblate.org/projects/libretime/)     | :green_circle: | @paddatrapper @jooola |
+| [Docker](https://hub.docker.com/u/libretime)                  | :green_circle: |                       |
 
 ## Domains
 
-| Service                             |    Teams     | Access                |
-| ----------------------------------- | :----------: | --------------------- |
-| [Gandi.net](https://www.gandi.net/) | :check_mark: | @paddatrapper @jooola |
+| Service                             |     Teams      | Access                |
+| ----------------------------------- | :------------: | --------------------- |
+| [Gandi.net](https://www.gandi.net/) | :green_circle: | @paddatrapper @jooola |
 
 ## Funding
 
-| Service                                                |    Teams     | Access                       |
-| ------------------------------------------------------ | :----------: | ---------------------------- |
-| [OpenCollective](https://opencollective.com/libretime) | :check_mark: | @paddatrapper @robbt @jooola |
+| Service                                                |     Teams      | Access                       |
+| ------------------------------------------------------ | :------------: | ---------------------------- |
+| [OpenCollective](https://opencollective.com/libretime) | :green_circle: | @paddatrapper @robbt @jooola |
 
 ## Communication
 
-| Service                                                             | Teams | Access                                                                  |
-| ------------------------------------------------------------------- | :---: | ----------------------------------------------------------------------- |
-| [Twitter @LibreTimeOSS](https://twitter.com/LibreTimeOSS)           |  :x:  | @hairmare has the credentials to appoint admins and @gusaus is an admin |
-| [YouTube](https://www.youtube.com/channel/UC-MA9GzkTb8th1YlDmF0NfA) |  :x:  | @Robbt                                                                  |
+| Service                                                             |    Teams     | Access                                                                  |
+| ------------------------------------------------------------------- | :----------: | ----------------------------------------------------------------------- |
+| [Twitter @LibreTimeOSS](https://twitter.com/LibreTimeOSS)           | :red_circle: | @hairmare has the credentials to appoint admins and @gusaus is an admin |
+| [YouTube](https://www.youtube.com/channel/UC-MA9GzkTb8th1YlDmF0NfA) | :red_circle: | @Robbt                                                                  |

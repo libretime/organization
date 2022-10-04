@@ -28,9 +28,9 @@ submitted there and approved for payment.
 
 ## Communication
 
-| Service                                                             |     Teams      | Access                                                                  |
-| ------------------------------------------------------------------- | :------------: | ----------------------------------------------------------------------- |
-| [Discourse](https://discourse.libretime.org/)                       |   :question:   | @Robbt                                                                  |
-| [Mattermost](https://chat.libretime.org/)                           | :green_circle: | @paddatrapper                                                           |
-| [Twitter @LibreTimeOSS](https://twitter.com/LibreTimeOSS)           |  :red_circle:  | @hairmare has the credentials to appoint admins and @gusaus is an admin |
-| [YouTube](https://www.youtube.com/channel/UC-MA9GzkTb8th1YlDmF0NfA) | :green_circle: | @Robbt @paddatrapper                                                    |
+| Service                                                             |     Teams      | Access               |
+| ------------------------------------------------------------------- | :------------: | -------------------- |
+| [Discourse](https://discourse.libretime.org/)                       |   :question:   | @robbt               |
+| [Mattermost](https://chat.libretime.org/)                           | :green_circle: | @paddatrapper        |
+| [Twitter @LibreTimeOSS](https://twitter.com/LibreTimeOSS)           |  :red_circle:  | @hairmare @gusaus    |
+| [YouTube](https://www.youtube.com/channel/UC-MA9GzkTb8th1YlDmF0NfA) | :green_circle: | @robbt @paddatrapper |

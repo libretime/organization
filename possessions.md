@@ -9,10 +9,10 @@ submitted there and approved for payment.
 | Service                                                       |     Teams      | Access                |
 | ------------------------------------------------------------- | :------------: | --------------------- |
 | [Github @libretime-bot](https://github.com/libretime-bot)     |  :red_circle:  | @jooola               |
-| [Github @LibreTimeDocBot](https://github.com/LibreTimeDocBot) |  :red_circle:  |                       |
+| [Github @LibreTimeDocBot](https://github.com/LibreTimeDocBot) |  :red_circle:  | :question:            |
 | [NPM](https://www.npmjs.com/org/libretime)                    | :green_circle: | @paddatrapper @jooola |
 | [Weblate](https://hosted.weblate.org/projects/libretime/)     | :green_circle: | @paddatrapper @jooola |
-| [Docker](https://hub.docker.com/u/libretime)                  | :green_circle: |                       |
+| [Docker](https://hub.docker.com/u/libretime)                  | :green_circle: | :question:            |
 
 ## Domains
 

@@ -16,9 +16,9 @@ submitted there and approved for payment.
 
 ## Domains
 
-| Service                             |     Teams      | Access                |
-| ----------------------------------- | :------------: | --------------------- |
-| [Gandi.net](https://www.gandi.net/) | :green_circle: | @paddatrapper @jooola |
+| Service                             |     Teams      | Access                          |
+| ----------------------------------- | :------------: | ------------------------------- |
+| [Gandi.net](https://www.gandi.net/) | :green_circle: | @paddatrapper @hairmare @jooola |
 
 ## Funding
 

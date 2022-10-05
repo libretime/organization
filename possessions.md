@@ -4,15 +4,17 @@ All these possessions (unless otherwise specified) are funded through the
 LibreTime [OpenCollective](https://opencollective.com/libretime). Invoices are
 submitted there and approved for payment.
 
+A shared vault is used by the LibreTime maintainers to store and share account credentials.
+
 ## Development Resources
 
-| Service                                                       |     Teams      | Access                |
-| ------------------------------------------------------------- | :------------: | --------------------- |
-| [Github @libretime-bot](https://github.com/libretime-bot)     |  :red_circle:  | @jooola               |
-| [Github @LibreTimeDocBot](https://github.com/LibreTimeDocBot) |  :red_circle:  | :question:            |
-| [NPM](https://www.npmjs.com/org/libretime)                    | :green_circle: | @paddatrapper @jooola |
-| [Weblate](https://hosted.weblate.org/projects/libretime/)     | :green_circle: | @paddatrapper @jooola |
-| [Docker](https://hub.docker.com/u/libretime)                  | :green_circle: | :question:            |
+| Service                                                       |     Teams      | Access                        |
+| ------------------------------------------------------------- | :------------: | ----------------------------- |
+| [Github @libretime-bot](https://github.com/libretime-bot)     |  :red_circle:  | @jooola (shared in the vault) |
+| [Github @LibreTimeDocBot](https://github.com/LibreTimeDocBot) |  :red_circle:  | :question:                    |
+| [NPM](https://www.npmjs.com/org/libretime)                    | :green_circle: | @paddatrapper @jooola         |
+| [Weblate](https://hosted.weblate.org/projects/libretime/)     | :green_circle: | @paddatrapper @jooola         |
+| [Docker](https://hub.docker.com/u/libretime)                  | :green_circle: | :question:                    |
 
 ## Domains
 

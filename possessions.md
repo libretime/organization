@@ -32,7 +32,7 @@ A shared vault is used by the LibreTime maintainers to store and share account c
 
 | Service                                                             |     Teams      | Access                                                    |
 | ------------------------------------------------------------------- | :------------: | --------------------------------------------------------- |
-| [Discourse](https://discourse.libretime.org/)                       |   :question:   | @robbt                                                    |
+| [Discourse](https://discourse.libretime.org/)                       | :green_circle: | @robbt @paddatrapper @jooola                              |
 | [Mattermost](https://chat.libretime.org/)                           | :green_circle: | @paddatrapper (provider) @gusaus @hairmare @jooola @robbt |
 | [Twitter @LibreTimeOSS](https://twitter.com/LibreTimeOSS)           |  :red_circle:  | @hairmare @gusaus                                         |
 | [YouTube](https://www.youtube.com/channel/UC-MA9GzkTb8th1YlDmF0NfA) | :green_circle: | @robbt @paddatrapper                                      |

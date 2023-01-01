@@ -8,14 +8,14 @@ A shared vault is used by the LibreTime maintainers to store and share account c
 
 ## Development Resources
 
-| Service                                                       |     Teams      | Access                                                   |
-| ------------------------------------------------------------- | :------------: | -------------------------------------------------------- |
-| [Github @libretime-bot](https://github.com/libretime-bot)     |  :red_circle:  | @jooola (shared in the vault)                            |
-| [Github @LibreTimeDocBot](https://github.com/LibreTimeDocBot) |  :red_circle:  | :question:                                               |
-| [NPM](https://www.npmjs.com/org/libretime)                    | :green_circle: | @paddatrapper @jooola                                    |
-| [Weblate](https://hosted.weblate.org/projects/libretime/)     | :green_circle: | @paddatrapper @jooola                                    |
-| [Docker](https://hub.docker.com/u/libretime)                  | :green_circle: | @hairmare @joola                                         |
-| [Hetzner LibreTime infra](https://console.hetzner.cloud)      | :green_circle: | @paddatrapper @joola (admin account shared in the vault) |
+| Service                                                       |     Teams      | Access                                                    |
+| ------------------------------------------------------------- | :------------: | --------------------------------------------------------- |
+| [Github @libretime-bot](https://github.com/libretime-bot)     |  :red_circle:  | @jooola (shared in the vault)                             |
+| [Github @LibreTimeDocBot](https://github.com/LibreTimeDocBot) |  :red_circle:  | :question:                                                |
+| [NPM](https://www.npmjs.com/org/libretime)                    | :green_circle: | @paddatrapper @jooola                                     |
+| [Weblate](https://hosted.weblate.org/projects/libretime/)     | :green_circle: | @paddatrapper @jooola                                     |
+| [Docker](https://hub.docker.com/u/libretime)                  | :green_circle: | @hairmare @jooola                                         |
+| [Hetzner LibreTime infra](https://console.hetzner.cloud)      | :green_circle: | @paddatrapper @jooola (admin account shared in the vault) |
 
 ## Domains
 

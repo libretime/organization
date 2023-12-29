@@ -1,0 +1,12 @@
+##
+# Custom Settings
+##
+
+# Prevent redirecting url with port
+port_in_redirect off;
+
+# Remove X-Powered-By, which is an information leak
+fastcgi_hide_header X-Powered-By;
+
+# Remove server information
+server_tokens off;

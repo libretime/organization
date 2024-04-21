@@ -1,0 +1,16 @@
+---
+- name: Create root user
+  ansible.builtin.user:
+    name: root
+    shell: /bin/bash
+
+- name: Deploy root files
+  ansible.builtin.copy:
+    src: "{{ item }}"
+    dest: "/root/{{ item }}"
+    owner: root
+    group: root
+    mode: "0644"
+  with_items:
+    - .bashrc
+    - .bash_aliases

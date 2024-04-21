@@ -1,0 +1,5 @@
+## Ansible
+ansible-core>=2.14,<2.15
+ansible-lint>=6.14.4,<6.15
+
+hcloud>=1.19.0,<1.20

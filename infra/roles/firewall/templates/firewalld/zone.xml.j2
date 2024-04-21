@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zone>
+  {{ zone.value.head | indent(2) }}
+{% if zone.value.rules is defined %}
+{% for rule in zone.value.rules %}
+  <!-- {{ rule }} -->
+  {{ zone.value.rules[rule] | indent(2) }}
+{% endfor %}
+{% endif %}
+</zone>

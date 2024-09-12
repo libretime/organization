@@ -1,0 +1,14 @@
+---
+ansible_user: root
+
+# firewall
+firewalld_zones:
+  public:
+    head: |
+      <interface name="{{ ansible_default_ipv4.interface }}"/>
+      <forward/>
+
+      <service name="ssh"/>
+      <service name="dhcpv6-client"/>
+      <service name="http"/>
+      <service name="https"/>

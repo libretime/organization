@@ -1,0 +1,44 @@
+---
+- name: Ensure apt keyrings directory exists
+  ansible.builtin.file:
+    path: /etc/apt/keyrings
+    state: directory
+    owner: root
+    group: root
+    mode: "0755"
+
+- name: Deploy apt repository key for docker # noqa command-instead-of-module risky-shell-pipe
+  ansible.builtin.shell: >
+    curl -sSL https://download.docker.com/linux/debian/gpg
+    | gpg --dearmor -o /etc/apt/keyrings/docker-archive-keyring.gpg
+  args:
+    creates: /etc/apt/keyrings/docker-archive-keyring.gpg
+
+- name: Deploy apt repository for docker
+  ansible.builtin.apt_repository:
+    repo: >
+      deb
+      [signed-by=/etc/apt/keyrings/docker-archive-keyring.gpg]
+      https://download.docker.com/linux/debian {{ ansible_distribution_release }} stable
+    state: present
+
+- name: Install docker
+  ansible.builtin.apt:
+    name: [docker-ce, docker-compose-plugin, docker-buildx-plugin]
+    state: present
+
+- name: Deploy docker daemon conf
+  ansible.builtin.template:
+    src: docker/daemon.json.j2
+    dest: /etc/docker/daemon.json
+    owner: root
+    group: root
+    mode: "0644"
+    backup: true
+  notify: Restart docker
+
+- name: Enable/start docker daemon
+  ansible.builtin.systemd:
+    name: docker
+    state: started
+    enabled: true

@@ -1,0 +1,19 @@
+---
+- name: Deploy sshd_config
+  ansible.builtin.template:
+    src: "ssh/sshd_config.j2"
+    dest: /etc/ssh/sshd_config
+    owner: root
+    group: root
+    mode: "0644"
+    backup: true
+  notify: Restart ssh
+
+- name: Enable/start ssh
+  ansible.builtin.systemd:
+    name: ssh
+    state: started
+    enabled: true
+
+- name: Setup motd
+  ansible.builtin.import_tasks: motd.yml

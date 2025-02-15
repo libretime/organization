@@ -1,0 +1,24 @@
+---
+- name: Install firewalld
+  ansible.builtin.apt:
+    name: firewalld
+    state: present
+
+- name: Enable/start firewalld
+  ansible.builtin.systemd:
+    name: firewalld
+    state: started
+    enabled: true
+
+- name: Deploy firewalld conf
+  ansible.builtin.template:
+    src: firewalld/zone.xml.j2
+    dest: /etc/firewalld/zones/{{ zone.key }}.xml
+    owner: root
+    group: root
+    mode: "0644"
+  with_dict: "{{ firewalld_zones }}"
+  loop_control:
+    loop_var: zone
+    label: "{{ zone.key }}"
+  notify: Restart firewalld

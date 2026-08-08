@@ -1,0 +1,10 @@
+collections:
+  - name: community.general
+    source: git+https://github.com/ansible-collections/community.general
+    type: git
+    version: 6.5.0
+
+  - name: hetzner.hcloud
+    source: git+https://github.com/ansible-collections/hetzner.hcloud
+    type: git
+    version: 1.11.0

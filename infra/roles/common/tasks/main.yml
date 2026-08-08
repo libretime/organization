@@ -1,0 +1,41 @@
+---
+- name: Set timezone
+  community.general.timezone:
+    name: "{{ timezone }}"
+
+- name: Install locale
+  community.general.locale_gen:
+    name: "{{ lang }}"
+    state: present
+
+- name: Check default locale
+  ansible.builtin.lineinfile:
+    dest: /etc/default/locale
+    line: "{{ item }}"
+  check_mode: true
+  with_items:
+    - "LANG={{ lang }}"
+    - "LANGUAGE={{ language }}"
+  register: default_locale
+
+- name: Set locale # noqa no-handler no-changed-when
+  when: default_locale is changed
+  ansible.builtin.command: update-locale LANG="{{ lang }}" LANGUAGE="en_US:en"
+
+- name: Install common packages
+  ansible.builtin.apt:
+    state: present
+    update_cache: true
+    name:
+      - apt-transport-https
+      - bzip2
+      - curl
+      - git
+      - gpg
+      - rsync
+      - sudo
+      - unzip
+      - vim
+      - wget
+      - zip
+      - zsh

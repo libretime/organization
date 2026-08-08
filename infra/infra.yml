@@ -1,0 +1,38 @@
+---
+- name: Setup servers
+  hosts: localhost
+  connection: local
+  vars:
+    ansible_python_interpreter: .venv/bin/python3
+  tasks:
+    - name: Create server
+      hetzner.hcloud.hcloud_server:
+        name: prod1
+        server_type: cx11
+        image: debian-11
+        location: fsn1
+        labels:
+          production: ""
+        ssh_keys:
+          - jooola
+        state: present
+
+    - name: Ensure the server is started
+      hetzner.hcloud.hcloud_server:
+        name: prod1
+        state: started
+      register: server
+
+    - name: Create server domain name
+      community.general.gandi_livedns:
+        api_key: "{{ lookup('ansible.builtin.env', 'GANDI_TOKEN') }}"
+        domain: libretime.org
+        record: prod1
+        type: A
+        values:
+          - "{{ server.hcloud_server.ipv4_address }}"
+        ttl: 360
+        state: present
+
+    - name: Refresh inventory
+      ansible.builtin.meta: refresh_inventory
